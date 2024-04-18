@@ -1,6 +1,6 @@
 
 #  Social Media Clone App 
-#  Live Web Link :- (https://social-media-scratch.netlify.app/)
+#  Live Web Link :-  https://social-media-scratch.netlify.app 
 
 
 A social media clone project Instagram incorporates essential features for users to share photos and connect with others.
