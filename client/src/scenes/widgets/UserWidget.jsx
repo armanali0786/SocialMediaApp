@@ -125,7 +125,7 @@ const UserWidget = ({ userId, picturePath }) => {
               <Typography color={main} fontWeight="500">
                 Twitter
               </Typography>
-              <Typography color={medium}>Social Network</Typography>
+              <Typography color={medium}>https://twitter.com/Arman_Ali_01</Typography>
             </Box>
           </FlexBetween>
           <EditOutlined sx={{ color: main }} />
@@ -138,7 +138,7 @@ const UserWidget = ({ userId, picturePath }) => {
               <Typography color={main} fontWeight="500">
                 Linkedin
               </Typography>
-              <Typography color={medium}>Network Platform</Typography>
+              <Typography color={medium}>https://www.linkedin.com/in/arman-ali-8383081ab/</Typography>
             </Box>
           </FlexBetween>
           <EditOutlined sx={{ color: main }} />

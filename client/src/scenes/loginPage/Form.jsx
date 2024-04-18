@@ -208,13 +208,14 @@ const Form = () => {
                 </Box>
               </>
             )}
-
+           
             <TextField
               label="Email"
               onBlur={handleBlur}
               onChange={handleChange}
               value={values.email}
               name="email"
+              placeholder="arman@gmail.com"
               error={Boolean(touched.email) && Boolean(errors.email)}
               helperText={touched.email && errors.email}
               sx={{ gridColumn: "span 4" }}
@@ -226,6 +227,7 @@ const Form = () => {
               onChange={handleChange}
               value={values.password}
               name="password"
+              placeholder="12345"
               error={Boolean(touched.password) && Boolean(errors.password)}
               helperText={touched.password && errors.password}
               sx={{ gridColumn: "span 4" }}
@@ -264,7 +266,11 @@ const Form = () => {
               {isLogin
                 ? "Don't have an account? Sign Up here."
                 : "Already have an account? Login here."}
+
             </Typography>
+            <marquee style={{width:"100%", marginTop:"5px"}} behavior="alternate">
+                If u don't want to create account , u can use default gmail & password.
+            </marquee>    
           </Box>
         </form>
       )}
